@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/home/denis/projects/mail-checker/.venv/bin/python
 
 import os
 import imapclient
@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 from bs4 import BeautifulSoup
 
 # Load environment variables from .env file
-load_dotenv()
+load_dotenv(os.path.join('/home/denis/projects/mail-checker', '.env'))
 
 # Set your email server and login credentials
 EMAIL_SERVER = os.getenv('EMAIL_SERVER', 'imap.kit.edu')
