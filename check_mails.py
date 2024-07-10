@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 from bs4 import BeautifulSoup
 
 # Load environment variables from .env file
-load_dotenv(os.path.join('/home/denis/projects/mail-checker', '.env'))
+load_dotenv(os.path.join('TO_BE_REPLACED', '.env'))
 
 # Set your email server and login credentials
 EMAIL_SERVER = os.getenv('EMAIL_SERVER', 'imap.kit.edu')
